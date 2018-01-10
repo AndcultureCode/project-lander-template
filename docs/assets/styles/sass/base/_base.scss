@@ -1,0 +1,161 @@
+body {
+  font-family: arial, sans-serif;
+  line-height: auto;
+  background-color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* TYPOGRAPHY
+---------------------------------------- */
+
+h1, h2, h3, p {
+  color: #222;
+  margin-bottom: 16px;
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 82px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 52px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+/* Paragraphs */
+p {
+	font-size: 18px;
+	line-height: 34px;
+  margin-bottom: 8px;
+}
+
+p.sub-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+z
+
+/* Lists */
+
+ul, ol {
+	list-style-position: inside;
+	padding: 0;
+}
+
+li ul, li ol {
+	margin: 0 1.625em;
+}
+
+dl dd {
+	margin-left: 1.625em;
+}
+
+
+
+/* NAVIGATION
+---------------------------------------- */
+
+nav {
+	position: relative;
+	display: block;
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 180px;
+	margin-right: 20%;
+}
+
+nav ul{
+	list-style-position: inside;
+	padding: 0;
+}
+
+nav ul li{
+	display: block;
+	float: left;
+}
+
+nav ul li a{
+	padding: 20px;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;;
+	font-weight: bold;
+	color: #8e8c8c;
+}
+nav ul li a:hover{
+	color: #000;
+}
+nav ul li a.selected{
+	color: #000;
+}
+
+
+
+/* STRUCTURE
+---------------------------------------- */
+
+section {
+  width: 100%;
+}
+.content-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+
+
+/* COMPONENTS
+---------------------------------------- */
+
+/* Component - Header */
+header {
+  background: #EEE;
+  text-align: center;
+}
+header .content-wrap{}
+header .logo { width: 140px;}
+
+/* Component - Footer */
+footer { background: #222}
+
+/* Component - Text */
+
+
+
+
+
+/* MEDIA QUERIES
+---------------------------------------- */
+
+/* Tablet Media Queries */
+@media screen and (max-width: 900px) {
+
+}
+
+
+/* Mobile Media Queries */
+@media screen and (max-width: 600px) {
+
+    section {
+        width: 90%;
+      }
+    .content-wrap {
+      padding: 64px 5%;
+    }
+
+}
