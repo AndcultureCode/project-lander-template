@@ -1,7 +1,23 @@
 .button {
-  padding:5px;
-  background-color: #dcdcdc;
-  border: 1px solid #666;
-  color:#000;
+  display: inline-block;
+  margin: 0 10px;
+  padding:16px 30px;
+  font-size: 14px;
+  color:$neutral-darkest;
+  border: none;
+  font-weight: bold;
   text-decoration:none;
+
+  &.primary {
+    background-color: $neutral-lightest;
+    color:$neutral-darkest;
+    border: 1px #fff solid;
+  }
+
+  &.secondary {
+    background: none;
+    color:$neutral-lightest;
+    border: 1px $neutral-lightest solid;
+  }
+
 }

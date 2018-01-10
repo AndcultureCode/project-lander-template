@@ -9,46 +9,6 @@ body {
 }
 
 
-/* TYPOGRAPHY
----------------------------------------- */
-
-h1, h2, h3, p {
-  color: $neutral-primary;
-  margin-bottom: 16px;
-}
-
-/* Headers */
-h1, h2, h3 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 76px;
-  line-height: 82px;
-}
-h2 {
-  font-size: 48px;
-  line-height: 52px;
-}
-h3 {
-  font-size: 36px;
-  line-height: 40px;
-}
-
-/* Paragraphs */
-p {
-	font-size: 18px;
-	line-height: 34px;
-  margin-bottom: 8px;
-}
-
-p.sub-title {
-  font-size: 24px;
-  line-height: 28px;
-}
-
-z
-
 /* Lists */
 
 ul, ol {
@@ -108,13 +68,6 @@ nav ul li a.selected{
 ---------------------------------------- */
 
 
-.button {
-  padding:5px;
-  background-color: $neutral-primary;
-  border: 1px solid #666;
-  color:#fff;
-  text-decoration:none;
-}
 
 
 /* STRUCTURE
@@ -129,6 +82,17 @@ section {
   padding: 64px 0;
 }
 
+.content-wrap:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+// Center inline content in divs
+.center {
+  text-align: center;
+  margin:auto;
+}
 
 
 /* COMPONENTS

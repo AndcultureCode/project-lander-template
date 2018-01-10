@@ -4,10 +4,13 @@
 @import "base/reset";
 @import "base/variables";
 @import "base/base";
+@import "base/typography";
+@import "base/buttons";
 
 // // Themes
 // // Any extra mixins and libraries uesd
-@import "themes/_tuna";
+@import "themes/tuna";
+@import "themes/andculture";
 
 
 // // PARTIALS
