@@ -50,6 +50,94 @@
 		</section>
 		<!-- END COMPONENT - TEXT -->
 
+		<!-- BEGIN COMPONENT - CSS CODE EXAMPLE -->
+		<section class="component css-code">
+			<div class="content-wrap">
+				<h2>CSS Code Example</h2>
+				<pre>
+					<code>
+p { 
+	color: red; 
+}
+body { 
+	background-color: #eee; 
+}
+				  	</code>
+				</pre>
+			</div>
+		</section>
+		<!-- END COMPONENT - CSS CODE EXAMPLE -->
+
+		<!-- BEGIN COMPONENT - LANGUAGE CODE EXAMPLE -->
+		<section class="component landuage-code">
+				<div class="content-wrap">
+					<h2>Language Code Example</h2>
+					<pre>
+						<code>
+import IBaseProps             			from "./_interfaces/base-props";
+import * as React                       from "react";
+import SomethingAwesome					from "./_compositions/something-awesome";
+
+/*
+---------------------------------------------------------------------------------------------
+Interface
+---------------------------------------------------------------------------------------------
+*/
+
+export interface ILayoutProps extends IBaseProps {
+}
+
+/*
+---------------------------------------------------------------------------------------------
+Presenter
+---------------------------------------------------------------------------------------------
+*/
+
+export class Layout extends React.Component<ILayoutProps, undefined> {
+
+/*
+-----------------------------------------------------------------------------------------
+Constructor
+-----------------------------------------------------------------------------------------
+*/
+
+constructor() {
+	super();
+}
+
+
+/*
+-----------------------------------------------------------------------------------------
+Public Methods
+-----------------------------------------------------------------------------------------
+*/
+
+public render() {
+	const props           = this.props;
+	const isPersisted     = props.courseId != undefined;
+
+	return (
+		<SomethingAwesome>
+
+		</SomethingAwesome>
+	);
+}
+}
+
+
+/*
+---------------------------------------------------------------------------------------------
+Exports
+---------------------------------------------------------------------------------------------
+*/
+
+export default Layout;
+					  	</code>
+					</pre>
+				</div>
+			</section>
+			<!-- END COMPONENT - LANGUAGE CODE EXAMPLE -->
+	
 		<!-- BEGIN FOOTER -->
 		<footer>
 			<div class="content-wrap">
